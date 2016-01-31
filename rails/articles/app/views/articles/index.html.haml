@@ -1,0 +1,11 @@
+.featured
+  =render 'shared/detailed_view_top', article: @featured
+  .body_content
+    =@featured.body
+.article_list
+  - @article_list.each do |article|
+    .article_list_view
+      %h3=article.title
+      .body_text
+        =truncate(article.body, length: 200, omission: '... (continued)')
+      =link_to 'Read More', article_path(article)

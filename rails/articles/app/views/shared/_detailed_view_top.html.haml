@@ -1,0 +1,10 @@
+.small_description
+  %h1=article.title
+  .date_and_author
+    %span.author_name
+      =article.author
+    |
+    %span.publication
+      =article.publication.stamp("Thursday, September 14th 2015")
+  .featured_image
+    =image_tag 'http://placehold.it/900x350'

@@ -1,0 +1,9 @@
+.next_reads
+  %h2.sub_title What to read next
+  - @next_reads.each do |next_read|
+    = link_to article_path(next_read) do
+      .article_view_small
+        .preview_image
+          =image_tag 'http://placehold.it/200x150'
+        .title
+          =next_read.title

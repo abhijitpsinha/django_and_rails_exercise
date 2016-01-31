@@ -1,0 +1,37 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#wrapper {
+	width: 80%;
+	margin: auto;
+	position: relative;
+	.navigation_view {
+		float: left;
+		width: 15%;
+		padding: 5px;
+	}
+	.content-wrapper {
+		float: left;
+		width: 82%;
+		padding: 5px;
+	}
+
+	.next_reads {
+	  float: left;
+	  width: 100%;
+	  h2.sub_title {
+	    border-top: 1px solid #ccc;
+	    border-bottom: 1px solid #ccc;
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	  }
+	  .article_view_small {
+	  	float: left;
+	  	width: 23%;
+	  	padding: 2px;
+	  	margin: 5px;
+	  }
+	}
+}

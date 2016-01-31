@@ -1,0 +1,32 @@
+source 'https://rubygems.org'
+
+ruby '2.1.2'
+
+gem 'activeadmin'
+gem 'active_admin_editor'
+gem 'active_skin'
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'by_star'
+gem 'cloudinary'
+gem 'font-awesome-rails'
+gem 'haml'
+gem "iconv", "~> 1.0.3"
+gem "jquery-rails", "< 3.0.0"
+gem 'json'
+gem 'kaminari'
+gem 'lorem'
+gem 'rails', '3.2.18'
+gem 'mysql2', '~> 0.3.16'
+gem 'stamp'
+
+group :assets do
+  gem 'sass-rails',   '~> 3.2.3'
+  gem 'coffee-rails', '~> 3.2.1'
+  gem 'therubyracer', :platforms => :ruby
+  gem 'uglifier', '>= 1.0.3'
+end
+
+group :development do
+  gem 'byebug'
+end
+
